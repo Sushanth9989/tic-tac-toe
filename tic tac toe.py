@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 from tkinter import *
 import tkinter.messagebox
 tk = Tk()
@@ -250,10 +244,5 @@ button8.grid(row=5, column=1)
 button9 = Button(tk, text=' ', font='Times 20 bold', bg='black', fg='white', height=4, width=8,command=lambda:checker(button9))
 button9.grid(row=5, column=2)
 tk.mainloop()
-
-
-# In[ ]:
-
-
 
 
